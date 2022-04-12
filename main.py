@@ -98,24 +98,25 @@ for img_path in img:
         else:
             continue
 
-    
-st.success("Success! Objects have been identified. You can search below to find out if a certain object exists.")
+
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # #  # # # # # # #
 # Search Function
 
-search_form = st.form(key="my_form")
-search = search_form.text_input("Search for objects below..")
-search_btn = search_form.form_submit_button(label="Search")
+search = st.text_input(" Search for objects below..")
+search_btn = st.button(label="Search")
 if search_btn:
-    if search in pred_list:
-        index = pred_list.index(search)
-        st.write(f"{search} is in the video objects classified by our model.")
+    if uploaded_video is not None:
+        if search in pred_list:
+            index = pred_list.index(search)
+            st.write(f"{search} is in the video objects classified by our model.")
 
-        plot_img = Image.open('images\\' + pred_image[index])
+            plot_img = Image.open('images\\' + pred_image[index])
 
-        st.image(plot_img, width=299)
+            st.image(plot_img, width=299)
 
+        else:
+            st.error(f"Error! {search} is not in the predicted results by our model" )
     else:
-        st.error(f"Error! {search} is not in the predicted results by our model" )
+        st.error("Upload Video first!")
