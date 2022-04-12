@@ -3,7 +3,7 @@
 
 Video Link: [https://youtu.be/BdUzhxPOuis]
 
-Web App Link: []
+Web App Link: [https://share.streamlit.io/anesu-rirwa/mlassignment/main/main.py]
 
 # Group Members
 
