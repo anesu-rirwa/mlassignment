@@ -3,7 +3,7 @@
 
 import keras
 import numpy as np
-from opencv-python import cv2
+import cv2
 import os
 import tempfile
 
