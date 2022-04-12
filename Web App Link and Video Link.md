@@ -1,7 +1,7 @@
 # Machine Learning Assignment
 # Links
 
-Video Link: [https://drive.google.com/file/d/1cvm0E6YUBTsbAv53uLSRXbQNqDXvVThO/view?usp=sharing]
+Video Link: [https://youtu.be/BdUzhxPOuis]
 
 Web App Link: []
 
