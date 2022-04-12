@@ -6,7 +6,6 @@ import numpy as np
 import cv2
 import os
 import tempfile
-import matplotlib.pyplot as plt
 
 from os import listdir
 from os.path import exists
