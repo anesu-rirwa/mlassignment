@@ -7,5 +7,4 @@ Web App Link: []
 
 # Group Members
 
-R204432D Rirwa Anesu (HAI) 
-R2045454H Sharif Phiri (HCS)
+R204432D Rirwa Anesu (HAI)  and  R2045454H Sharif Phiri (HCS)
