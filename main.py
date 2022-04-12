@@ -1,3 +1,6 @@
+# Rirwa Anesu R204432D (HAI) 
+# Sharif Phiri R204545H (HCS)
+
 import keras
 import numpy as np
 import cv2
